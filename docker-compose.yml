@@ -1,0 +1,9 @@
+services:
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./nginx/static:/usr/share/nginx/html/static:ro
+      - ./dist:/usr/share/nginx/html/dist:ro

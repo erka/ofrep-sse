@@ -1,0 +1,16 @@
+{
+  "flags": [
+    {
+      "key": "my-flag",
+      "reason": "DEFAULT",
+      "variant": "true",
+      "value": true
+    }
+  ],
+  "eventStreams": [
+    {
+      "type": "sse",
+      "endpoint": { "requestUri": "/stream" }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+event: connected
+data: {}
+
+event: message
+data: {"etag":"abcdef1","type":"refetchEvaluation"}
+
