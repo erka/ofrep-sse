@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@openfeature/ofrep-core": "^2.2.0",
     "@openfeature/ofrep-web-provider": "^0.4.1",
     "@openfeature/web-sdk": "^1.0.0"
   },
